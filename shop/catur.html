@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Home</title>
+<title>Papan Catur</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -51,9 +51,14 @@ $(document).ready(function() {
 
 <div id="menuModal" class="reveal-modal" data-reveal aria-labelledby="menuModalTitle" aria-hidden="true" role="dialog">
 <h2 id="menuModalTitle">Apakah Anda yakin membelinya?</h2>
-<p><button class="button" type="button">Ya</button>
-<button class="button" type="button">Tidak</button></p>
-<a class="close-reveal-modal" aria-label="Close">&#215</a>
+<a href="#" data-reveal-id="success" class="menu button">Ya</a>
+<div id="success" class="reveal-modal" data-reveal role="dialog">
+<h2>Terima kasih</h2>
+</div>
+<a href="#" data-reveal-id="cancel" class="menu button">Tidak</a>
+<div id="cancel" class="reveal-modal" data-reveal role="dialog">
+<h2>Transaksi dibatalkan</h2>
+</div>
 </div>
 
 </div>
