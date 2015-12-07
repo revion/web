@@ -1,0 +1,32 @@
+a:hover{
+	background-color: #c9c9c9;
+	color: white;
+}
+.active{
+	background-color: #9ad3de;
+	color: white;
+}
+.inactive{
+	background-color: #89bdd3;
+	color: white;
+}
+.title{
+	background-color: #89bdd3;
+	color: white;
+	text-align:center;
+	margin:25px;
+	font-family:courier;
+	font-size:100px;
+}
+section.isi{
+	text-align:center;
+}
+footer.lisensi{
+	width:100%;
+	padding-top:400px;
+	text-align:center;
+	font-size:11px;
+	font-family:times new roman;
+	background-color: white;
+	position:absolute;
+}
